@@ -190,7 +190,7 @@ section {
 .horizontal__item {
 
     border: 1px solid lightblue;
-    padding: 200px 150px;
+    padding: 10vh 4vw;
     justify-content: space-between;
     flex-direction: column;
     background-color: transparent;
@@ -200,7 +200,7 @@ section {
 
 .horizontal__item:not(last-child) {
 
-    margin-right: 100px;
+    margin-right: 8vw;
 
 }
 
