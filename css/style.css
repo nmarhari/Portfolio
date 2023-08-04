@@ -179,10 +179,16 @@ section {
 
 }
 
+.project_desc {
+
+    padding-top: 4vh;
+
+}
+
 .horizontal__content {
 
     display: flex;
-    margin-top: 15vh;
+    margin-top: 12vh;
     margin-left: 100vh;
     
 }
@@ -204,11 +210,9 @@ section {
 
 }
 
-.horizontal_num {
+.item_background {
 
-    font-size: 6vw;
-    font-stretch: condensed;
-    color: lightblue;
-    font-weight: 900;
+    height: 10vh;
+    width: 4vw;
 
 }

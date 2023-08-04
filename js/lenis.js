@@ -29,7 +29,7 @@ const section_2 = document.getElementById("projects");
 const col_left2 = document.querySelector(".project_title");
 const timeln2 = gsap.timeline({ paused: true });
 
-timeln2.fromTo(col_left2, {y: 0}, {y: '3vh', duration: 1, ease: 'none'}, 0);
+timeln2.fromTo(col_left2, {y: 0}, {y: '8vh', duration: 1, ease: 'none'}, 0);
 
 const scroll_2 = ScrollTrigger.create({
     animation: timeln2,
@@ -40,16 +40,30 @@ const scroll_2 = ScrollTrigger.create({
 });
 
 const section_3 = document.getElementById("projects");
+const col_right = document.querySelector(".project_desc");
+const timeln3 = gsap.timeline({ paused: true });
+
+timeln3.fromTo(col_right, {y: 0}, {y: '4vh', duration: 1, ease: 'yes'}, 0);
+
+const scroll_3 = ScrollTrigger.create({
+    animation: timeln3,
+    trigger: section_3,
+    start: 'top center',
+    end: 'bottom center',
+    scrub: true
+});
+
+const section_4 = document.getElementById("projects");
 let box_items = gsap.utils.toArray(".horizontal__item");
 
 gsap.to(box_items, {
   xPercent: -220 * (box_items.length - 1),
   ease: "sine.out",
   scrollTrigger: {
-    trigger: section_3,
+    trigger: section_4,
     pin: true,
     scrub: 3,
     snap: 1 / (box_items.length - 1),
-    end: "+=" + section_3.offsetWidth
+    end: "+=" + section_4.offsetWidth
   }
 });
