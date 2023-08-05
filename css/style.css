@@ -307,7 +307,7 @@ section {
 
     .vertical__heading { transform: translate(2vw, 0vh); }
 
-    .vertical__item:not(:last-child) { margin-bottom: 20vh; }
+    .vertical__item:not(:last-child) { margin-bottom: 10vh; }
 
     .project_title { width: 30%; }
 
