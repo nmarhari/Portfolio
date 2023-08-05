@@ -182,6 +182,18 @@ section {
 
 }
 
+.col_left {
+
+    width: 45%;
+
+}
+
+.col_right {
+
+    width: 55%;
+
+}
+
 .vertical__content {
 
     display: flex;
