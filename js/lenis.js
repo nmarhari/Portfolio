@@ -25,7 +25,7 @@ const scroll_1 = ScrollTrigger.create({
     scrub: true
 });
 
-const section_2 = document.getElementById("projects_intro");
+const section_2 = document.getElementById("projects");
 const col_left2 = document.querySelector(".project_title");
 const timeln2 = gsap.timeline({ paused: true });
 
@@ -39,7 +39,7 @@ const scroll_2 = ScrollTrigger.create({
     scrub: true
 });
 
-const section_3 = document.getElementById("projects_intro");
+const section_3 = document.getElementById("projects");
 const col_right = document.querySelector(".project_desc");
 const timeln3 = gsap.timeline({ paused: true });
 
@@ -51,4 +51,19 @@ const scroll_3 = ScrollTrigger.create({
     start: 'top center',
     end: 'bottom center',
     scrub: true
+});
+
+const section_4 = document.getElementById("projects");
+let box_items = gsap.utils.toArray(".horizontal__item");
+
+gsap.to(box_items, {
+  xPercent: -220 * (box_items.length - 1),
+  ease: "sine.out",
+  scrollTrigger: {
+    trigger: section_4,
+    pin: true,
+    scrub: 3,
+    snap: 1 / (box_items.length - 1),
+    end: "+=" + section_4.offsetWidth
+  }
 });
