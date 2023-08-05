@@ -155,6 +155,14 @@ section {
 
 }
 
+@media(max-width: 800px) {
+
+    #home { height: 80vh; padding-top: 25vh; }
+
+    #about { height: 110vh; }
+
+}
+
 .container {
 
     width: 100%;
@@ -164,7 +172,7 @@ section {
 
 .col {
 
-    width: 49%;
+    width: 50%;
 
 }
 
@@ -200,5 +208,21 @@ section {
 .project_desc {
 
     padding-top: 4vh;
+
+}
+
+@media(max-width: 800px) {
+
+    .col_left  { width: 25%; }
+
+    .col_right { width: 75%; }
+
+    .vertical__heading { transform: translate(2vw, 0vh); }
+
+    .vertical__item:not(:last-child) { margin-bottom: 25vw; }
+
+    .project_title { width: 30%; }
+
+    .project_desc { width: 70%; padding-left: 8vw; }
 
 }
