@@ -249,17 +249,47 @@ section {
 .horizontal__item {
 
     border: 1px solid lightblue;
-    padding: 10vh 4vw;
     justify-content: space-between;
     flex-direction: column;
     background-color: transparent;
     backdrop-filter: blur(2px);
+    height: 50vh;
+    text-decoration: none;
 
 }
 
 .horizontal__item:not(last-child) {
 
     margin-right: 8vw;
+
+}
+
+.item_title {
+
+    margin-left: 1vw;
+    margin-right: 8vw;
+
+}
+
+.item_body {
+
+    margin-left: 1vw;
+    color: #ffffff;
+    font-size: 1.5vw;
+
+}
+
+.button {
+
+    text-decoration: none;
+    color: #ffffff;
+    border: 1px solid lightblue;
+    padding: .5vh 1vw;
+    position: relative;
+    bottom: 0;
+    margin-bottom: 2vh;
+    background: linear-gradient(to bottom right, #000d2b, #000b24);
+    font-size: 1vw;
 
 }
 
