@@ -29,6 +29,11 @@ html {
 
     scroll-behavior: initial;
     overflow: hidden;
+    width: 100%;
+    -webkit-font-smoothing: subpixel-antialiased;
+    -moz-font-smoothing: antialiased;
+    text-rendering: geometricPrecision;
+    
 
 }
 
@@ -46,30 +51,30 @@ body {
     font-weight: 400;
     background: linear-gradient(to bottom right, #000b24, #000000);
     color: #ffffff;
+    width: 100%;
 
 }
 
 h1 {
 
     text-align: center;
-    font-size: 25vw;
+    font-size: 8vw;
     font-weight: 750;
     line-height: 80%;
-    padding-top: 10%;
     
 }
 
 h2 {
 
     text-align: center;
-    font-size: 24px;
+    font-size: 1vw;
     margin: 0;
 
 }
 
 h3 {
 
-    border-left: 50vw;
+    border-left: 1vw;
     font-size: 6vw;
     font-weight: 900;
     line-height: 85%;
@@ -97,7 +102,7 @@ h4 {
 
 h6 {
 
-    font-size: 12px;
+    font-size: 0.5vw;
     font-weight: 500;
     text-align: center;
     margin: 0;
@@ -112,41 +117,42 @@ h1, h2, h3, h4 {
 
 .container {
 
-    width: 95%;
+    width: 100%;
     margin: auto;
 
 }
 
 section {
 
-    padding: 50px 0;
+    padding: 5vw 0;
 
 }
 
 .col {
 
-    width: 50%;
+    width: 49%;
 
 }
 
 #home {
 
     height: 100vh;
-    width: 100vw;
+    width: 100%;
+    padding-top: 10vh;
 
 }
 
 #about {
 
     height: 125vh;
-    width: 100vw;
+    width: 100%;
 
 }
 
 #projects {
 
     height: 100vh;
-    width: 100vw;
+    width: 100%;
 
 }
 
@@ -189,7 +195,7 @@ section {
 
     display: flex;
     margin-top: 12vh;
-    margin-left: 100vh;
+    margin-left: 100vw;
     
 }
 
