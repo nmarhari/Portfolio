@@ -115,22 +115,9 @@ h1, h2, h3, h4 {
 
 }
 
-.container {
-
-    width: 100%;
-    margin: auto;
-
-}
-
 section {
 
     padding: 5vw 0;
-
-}
-
-.col {
-
-    width: 49%;
 
 }
 
@@ -149,10 +136,24 @@ section {
 
 }
 
-#projects {
+#projects_intro {
 
-    height: 100vh;
+    height: 80vh;
     width: 100%;
+    margin-bottom: 15vh;
+
+}
+
+.container {
+
+    width: 100%;
+    margin: auto;
+
+}
+
+.col {
+
+    width: 49%;
 
 }
 
@@ -188,37 +189,5 @@ section {
 .project_desc {
 
     padding-top: 4vh;
-
-}
-
-.horizontal__content {
-
-    display: flex;
-    margin-top: 12vh;
-    margin-left: 100vw;
-    
-}
-
-.horizontal__item {
-
-    border: 1px solid lightblue;
-    padding: 10vh 4vw;
-    justify-content: space-between;
-    flex-direction: column;
-    background-color: transparent;
-    backdrop-filter: blur(2px);
-
-}
-
-.horizontal__item:not(last-child) {
-
-    margin-right: 8vw;
-
-}
-
-.item_background {
-
-    height: 10vh;
-    width: 4vw;
 
 }
