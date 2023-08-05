@@ -162,6 +162,13 @@ section {
 
 }
 
+#end {
+
+    height: 100vh;
+    padding: 0;
+
+}
+
 @media(max-width: 800px) {
 
     #home { height: 80vh; padding-top: 25vh; }
@@ -253,6 +260,12 @@ section {
 .horizontal__item:not(last-child) {
 
     margin-right: 8vw;
+
+}
+
+.end_text {
+
+    text-align: center;
 
 }
 
