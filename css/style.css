@@ -221,7 +221,7 @@ section {
 
 .vertical__item:not(:last-child) {
 
-    margin-bottom: 200px;
+    margin-bottom: 20vh;
 
 }
 
