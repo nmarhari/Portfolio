@@ -63,7 +63,7 @@ gsap.to(box_items, {
     trigger: section_4,
     pin: true,
     scrub: 5,
-    snap: 1 / (box_items.length - 1),
+    snap: 0,
     end: "+=" + section_4.offsetWidth
   }
 });
