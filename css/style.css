@@ -309,8 +309,10 @@ section {
 
     .vertical__item:not(:last-child) { margin-bottom: 10vh; }
 
+    .horizontal__content { margin-top: 10vh; }
+
     .project_title { width: 30%; }
 
-    .project_desc { width: 70%; padding-left: 8vw; }
+    .project_desc { width: 70%; padding-left: 8vw; padding-top: 0vh; }
 
 }
