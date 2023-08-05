@@ -47,7 +47,7 @@ html, body {
 body {
 
     font-family: Slussen;
-    font-size: 16px;
+    font-size: 1.4vw;
     font-weight: 400;
     background: linear-gradient(to bottom right, #000b24, #000000);
     color: #ffffff;
@@ -124,11 +124,17 @@ section {
 
 @media(max-width: 800px) {
 
+    body { font-size: 3vw; }
+
     h1 { font-size: 14vw; }
 
     h2 { font-size: 2vw; }
 
-    h6 { font-size: 1vw; }
+    h3 { font-size: 6vw; }
+
+    h4 { font-size: 4vw; }
+
+    h6 { font-size: 1.4vw; }
 
 }
 
@@ -159,7 +165,7 @@ section {
 
     #home { height: 80vh; padding-top: 25vh; }
 
-    #about { height: 110vh; }
+    #about { height: 120vh; }
 
 }
 
@@ -219,7 +225,7 @@ section {
 
     .vertical__heading { transform: translate(2vw, 0vh); }
 
-    .vertical__item:not(:last-child) { margin-bottom: 25vw; }
+    .vertical__item:not(:last-child) { margin-bottom: 20vh; }
 
     .project_title { width: 30%; }
 
