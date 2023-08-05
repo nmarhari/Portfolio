@@ -29,7 +29,7 @@ const section_2 = document.getElementById("projects");
 const col_left2 = document.querySelector(".project_title");
 const timeln2 = gsap.timeline({ paused: true });
 
-timeln2.fromTo(col_left2, {y: 0}, {y: '20vh', duration: 1, ease: 'none'}, 0);
+timeln2.fromTo(col_left2, {y: 0}, {y: '15vh', duration: 1, ease: 'none'}, 0);
 
 const scroll_2 = ScrollTrigger.create({
     animation: timeln2,
