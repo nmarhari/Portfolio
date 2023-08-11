@@ -320,12 +320,6 @@ section {
 
 }
 
-.dynamic-text li {
-
-    position: relative;
-
-}
-
 @media(max-width: 800px) {
 
     .col_left  { width: 25%; }
