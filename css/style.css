@@ -295,6 +295,7 @@ section {
 
 .end_text {
 
+    padding-top: 35vh;
     display: flex;
     justify-content: center;
     font-size: 4vw;
@@ -317,6 +318,7 @@ section {
 
     padding: 0;
     margin-left: 1vw;
+    color: lightblue;
 
 }
 
