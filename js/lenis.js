@@ -67,3 +67,17 @@ gsap.to(box_items, {
     end: "+=" + section_4.offsetWidth
   }
 });
+
+const section_5 = document.getElementById("end");
+const lets = document.querySelector(".end_text");
+const timeln5 = gsap.timeline({ paused: true });
+
+timeln5.fromTo(lets, {y: 0}, {y: '10vh', duration: 1, ease: 'none'}, 0);
+
+const scroll_5 = ScrollTrigger.create ({
+    animation: timeln5,
+    trigger: section_5,
+    start: 'top center',
+    end: 'bottom center',
+    scrub: true
+});
