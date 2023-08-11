@@ -295,7 +295,34 @@ section {
 
 .end_text {
 
-    text-align: center;
+    display: flex;
+    justify-content: center;
+    font-size: 4vw;
+    font-weight: 250;
+    align-items: center;
+    box-sizing: border-box;
+    flex-wrap: wrap;
+
+}
+
+.end_text li {
+
+    list-style: none;
+    color: lightblue;
+    position: relative;
+
+}
+
+.dynamic-text {
+
+    padding: 0;
+    margin-left: 1vw;
+
+}
+
+.dynamic-text li {
+
+    position: relative;
 
 }
 
