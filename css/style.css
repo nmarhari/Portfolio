@@ -268,6 +268,7 @@ section {
 
     margin-left: 1vw;
     margin-right: 8vw;
+    position: relative;
 
 }
 
@@ -276,6 +277,19 @@ section {
     margin-left: 1vw;
     color: #ffffff;
     font-size: 1.5vw;
+    position: relative;
+
+}
+
+.bgv {
+
+    top: 0; 
+    left: 0; 
+    overflow: hidden; 
+    position: absolute; 
+    object-fit: cover;  
+    width: 100%; 
+    height: 100%;
 
 }
 
