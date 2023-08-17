@@ -173,7 +173,7 @@ section {
 
     #home { height: 80vh; padding-top: 25vh; }
 
-    #about { height: 120vh; }
+    #about { height: 175vh; }
 
 }
 
@@ -199,6 +199,7 @@ section {
 .col_right {
 
     width: 55%;
+    margin-right: 15vw;
 
 }
 
