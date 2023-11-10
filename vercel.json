@@ -1,13 +1,17 @@
 {
-    "routes": [
-      { "handle": "filesystem" },
-      { "src": "/(.*)", "status": 404, "dest": "/" }
-    ],
 
     "cleanUrls": true,
 
     "redirects": [
-        { "source": "/resume", "destination": "/resume.pdf", "permanent": true }
+        {
+            "source": "/resume",
+            "destination": "/resume.pdf",
+            "permanent": true
+        },
+        {
+            "source": "/(.*)",
+            "destination": "https://nassimmarhari.com"
+        }
     ]
 
 }
