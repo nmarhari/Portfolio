@@ -7,10 +7,6 @@
             "source": "/resume",
             "destination": "/resume.pdf",
             "permanent": true
-        },
-        {
-            "source": "/(.*)",
-            "destination": "https://nassimmarhari.com"
         }
     ]
 
