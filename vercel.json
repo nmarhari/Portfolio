@@ -1,0 +1,14 @@
+{
+    "routes": [
+      { "handle": "filesystem" },
+      { "src": "/(.*)", "status": 404, "dest": "/" }
+    ],
+
+    "cleanurls": true,
+
+    "redirects": [
+        { "source": "/resume", "destination": "/resume.pdf", "permanent": true }
+    ]
+
+}
+
